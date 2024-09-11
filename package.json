@@ -1,0 +1,26 @@
+{
+  "name": "mydogs-server",
+  "version": "1.0.0",
+  "description": "To cater to GPS websocket and to fetch data grom AWS RDS and return as JSON",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"not testing as of now\""
+  },
+  "keywords": [
+    "fitbark",
+    "ashwin",
+    "sridhar",
+    "nodejs",
+    "express",
+    "websocket",
+    "dogs"
+  ],
+  "author": "Ashwin Sridhar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "mysql2": "^3.11.1",
+    "ws": "^8.18.0"
+  }
+}
